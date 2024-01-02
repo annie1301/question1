@@ -1,0 +1,7 @@
+your_num=int(input("Enter a number of your choice:"))
+sum=0
+while your_num>0:
+    rem=your_num%10
+    sum=sum*10+rem
+    your_num=your_num//10
+print(sum)
